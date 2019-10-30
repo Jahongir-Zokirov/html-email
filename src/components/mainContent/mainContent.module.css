@@ -1,0 +1,28 @@
+.mainWindow{
+    width: 94%;
+    background: #f3f3f3;
+    margin-left: 40px;
+}
+.window{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 40px;
+}
+.rightSide{
+    border-right: 1px solid silver;
+}
+
+.orderList, .characteristic, .totalPrice{
+    padding: 20px;
+}
+
+.totalPrice{
+    font-weight: 500;
+}
+.kitInfo{
+    padding-top: 20px;
+}
+.bside{
+    padding-top: 10px;
+}
